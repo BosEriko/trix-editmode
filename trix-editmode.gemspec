@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'trix/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'trix-rails'
+  spec.name          = 'trix-editmode'
   spec.version       = Trix::VERSION
   spec.authors       = ['Kyle Fox', 'Jon Moss']
   spec.email         = ['kylefox@gmail.com', 'me@jonathanmoss.me']
