@@ -107,10 +107,10 @@ bundle exec appraisal rake spec
 
 ## Upgrading Trix
 
-To upgrade Trix, simply copy the _compiled_ styles from [`trix/dist`](https://github.com/BosEriko/trix/tree/editmode/dist) into this repository:
+To upgrade Trix, simply run the following commands:
 
-- Copy [`trix.js`](https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js) to `vendor/assets/javascripts/trix.js`
-- Copy [`trix.css`](https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.css) to `vendor/assets/stylesheets/trix.css`
+- `rm -rf vendor/assets/javascripts/trix.js && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.js > vendor/assets/javascripts/trix.js`
+- `rm -rf vendor/assets/stylesheets/trix.css && curl https://raw.githubusercontent.com/BosEriko/trix/editmode/dist/trix.css > vendor/assets/stylesheets/trix.css`
 
 # License (MIT)
 
